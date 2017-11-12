@@ -1,6 +1,6 @@
 body {
     font: 400 15px/1.8 Lato, sans-serif;
-    background-color: #AAAAAA;
+    background-color: #FFFFFF;
 }
 h3, h4 {
     margin: 10px 0 30px 0;
@@ -18,9 +18,11 @@ h3, h4 {
     height: 80%;
     opacity: 0.7;
 }
+
 .person:hover {
     border-color: paleturquoise;
 }
+
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%); /* make all photos black and white */
@@ -35,6 +37,29 @@ h3, h4 {
     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
 }
+
+.facts {
+  width: 21%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;*/
+  float: left;
+}
+
+#allfacts {
+  display: flex;
+  display: -webkit-flex;
+  flex-grow: 0;
+  -ms-flex-grow: 0;
+  flex-wrap: wrap;
+  width: 95%;
+  margin:20px auto;
+  background-color: #cccccc;
+}
+
 
 .thumbnail {
     padding: 0 0 15px 0;
@@ -97,16 +122,6 @@ h3, h4 {
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
-.open .dropdown-toggle {
-    color: #fff;
-    background-color: #fff !important;
-}
-.dropdown-menu li a {
-    color: #000 !important;
-}
-.dropdown-menu li a:hover {
-    background-color: red !important;
-}
 footer {
     background-color: ;
     color: #f5f5f5;
@@ -125,6 +140,5 @@ footer a:hover {
 textarea {
     resize: none;
     We would like to create a message board for restaurants and those who are hunger and don’t have many opportunities to afford food of higher quality or get it for free. Our website will as well involve the audience to think about how they can create change in the issue of hunger.
-
 
 }
